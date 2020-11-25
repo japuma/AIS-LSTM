@@ -2,13 +2,13 @@
 
 Requirements
 ------------
-python 3.6
-keras 2.1.3
-pandas 1.0.5
-numpy 1.19.4
-
-matplotlib 3.2.2
-folium 0.11.0
+python 3.6  
+keras 2.1.3  
+pandas 1.0.5  
+numpy 1.19.4  
+  
+matplotlib 3.2.2  
+folium 0.11.0  
 
 About
 ------------
