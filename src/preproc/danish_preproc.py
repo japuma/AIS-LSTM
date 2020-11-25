@@ -37,11 +37,11 @@ for i in range(len(unique_count)):
     k += unique_count[i]
 
 k = 0
-last_count = 0
+last_count = -1
 for i in range(len(df)):
     df[i, 2] = df[i, 2] - first_lat[k]
     df[i, 3] = df[i, 3] - first_long[k]
-    if (last_count - i) == unique_count[k]:
+    if abs(last_count - i) == unique_count[k]:
         last_count = i
         k += 1
 
