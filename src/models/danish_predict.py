@@ -98,13 +98,13 @@ unique_count = firsts[2]
 
 # Adding lats and longs back to give actual predictions
 k = 0
-last_count = 0
+last_count = -1
 for i in range(len(y_test)):
     prediction[i, 0] = prediction[i, 0] + first_lat[k]
     prediction[i, 1] = prediction[i, 1] + first_long[k]
     y_test[i, 0] = y_test[i, 0] + first_lat[k]
     y_test[i, 1] = y_test[i, 1] + first_long[k]
-    if (last_count - i) == unique_count[k]:
+    if abs(last_count - i) == unique_count[k]:
         last_count = i
         k += 1
 
