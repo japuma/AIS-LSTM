@@ -51,6 +51,7 @@ Project Folder Structure
 About (KOR ver)
 ------------
 덴마크 AIS 데이터를 사용하여 선박 위치를 예측하는 LSTM 케라스 신경망
+
 찾은 데이터: [Here](ftp://ftp.ais.dk/ais_data/) ftp://ftp.ais.dk/ais_data/ - CSV파일이 커서 본 파일에 포함시키지 않았습니다.
 
 Project Folder Structure (KOR ver)
