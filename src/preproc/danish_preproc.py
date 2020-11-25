@@ -9,7 +9,7 @@ Date: July 25th, 2018
 
 import numpy as np
 
-sorted_data = np.load('../../data/interim/danish_sorted_data.npz')
+sorted_data = np.load('../../data/interim/danish_sorted_data.npz', allow_pickle=True)
 df = sorted_data['sorted_data']
 
 # take out first column
